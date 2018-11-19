@@ -1,0 +1,546 @@
+@media (max-width: 991px){
+    .impression-text {
+        font-size: 32px;
+        line-height: 34px;
+    }
+    
+    .impression-text br{
+        display: none;
+    }
+    
+    .impression {
+        margin-top: 30px;
+    }
+    
+    .header {
+        padding: 15px;
+        padding-bottom: 0;
+        z-index: 1;
+    }
+    .impression {
+        padding: 20px;
+        width: 65%;
+    }
+    .first-man img {
+        min-width: auto;
+        margin-top: 50px;
+        max-width: 80%;
+    }
+    .first-man {
+        width: 35%;
+    }
+    .ball {
+        width: 85px;
+        transform: translate(-50%, 70px);
+    }
+    .step-2-title {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    #step-2 {
+        padding-top: 90px;
+    }
+    .count {
+        font-size: 60px;
+        font-weight: 900;
+        width: auto;
+        height: auto;
+        margin-top: -140px;
+        padding: 20px;
+    }
+    .game {
+        padding-left: 20px;
+    }
+    .game-title {
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: 0.1px;
+    }
+    
+    .game-title br{
+        display: none;
+    }
+    .field-img {
+        margin-top: 42px;
+        padding-right: 5px;
+        position: relative !important;
+    }
+    .start-btn {
+        width: 114px;
+    }
+    .personage-item img {
+        margin-left: 10px;
+    }
+    .personage-1 {
+        width: 90px;
+        height: 90px;
+    }
+    .personage-1 .personage-bg {
+        width: 90px;
+        height: 90px;
+    }
+    .personage-1-img, .personage-1 img {
+        width: 57px;
+    }
+    .personage-2 {
+        width: 86px;
+        height: 86px;
+    }
+    .personage-2 .personage-bg {
+        width: 86px;
+        height: 86px;
+    }
+    .personage-2-img, .personage-2 img {
+        width: 63px;
+    }
+    .personage-3 {
+        width: 86px;
+        height: 86px;
+    }
+    .personage-3 .personage-bg {
+        width: 86px;
+        height: 86px;
+    }
+    .personage-3-img, .personage-3 img {
+        width: 64px;
+    }
+    .personages {
+        padding-top: 13px;
+        margin-bottom: 20px;
+    }
+    
+    .game-text br{
+        display: none;
+    }
+    .game-text {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-top: 0;
+        position: relative!important;
+        left: 100%;
+        bottom: 20px;
+    }
+    .captain {
+        max-width: 30%;
+        max-height: 80%;
+        left: 5%;
+    }
+    .captain img{
+        max-height: 100%;
+    }
+    .chaos{
+        max-height: 80%;
+        top: 50%;
+        right: 5%;
+    }
+    .chaos img {
+        max-height: 270px;
+    }
+    #step-3,
+    #step-4,
+    #step-5,
+    #step-6{
+        margin-top: -35px;
+    }
+    #step-4 .cap-vs-chaos {
+        background-image: url(../images/capvschaos1m.png);
+        width: 405px;
+        height: 309px;
+        background-size: 100% 100%;
+        font-size: 16px;
+        line-height: 21px;
+        padding: 60px 30px 20px 80px;
+        left: calc(5% + 118px);
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+    }
+    #step-5 .cap-vs-chaos {
+        width: 360px;
+        height: 214px;
+        background-image: url(../images/capvschaos2m.png);
+        -webkit-background-size: cover;
+        background-size: 100% 100%;
+        font-size: 16px;
+        line-height: 21px;
+        padding: 36px 80px 0 40px;
+        right: calc(11% + 43px);
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+    }
+    #step-6 .captain {
+        left: 50%;
+        margin-left: -138px;
+    }
+    #step-7 {
+        padding-top: 90px;
+        margin-top: -60px;
+    }
+    #step-7 .main {
+        padding-left: 15px;
+    }
+    .step-7-title {
+        font-size: 38px;
+        line-height: 34px;
+        margin-bottom: 10px;
+    }
+    .step-7-text {
+        font-size: 16px;
+        line-height: 21px;
+        width: 100%;
+        float: left;
+        padding-right: 5px;
+    }
+    #step-7 .main-bg {
+        padding-top: 10px;
+    }
+    .team {
+        padding-left: 15px;
+    }
+    .team-img {
+        width: 70%;
+    }
+    .team .team-item {
+        margin-bottom: 5px;
+    }
+    .team-img .draggable {
+        max-height: 50px;
+    }
+    .team .dropped .draggable {
+        max-width: 22px;
+    }
+    .team .dropped {
+        width: 40px;
+        height: 40px;
+    }
+    .hover-info {
+        position: fixed !important;
+        width: 90%;
+        padding: 25px;
+        font-size: 18px;
+        line-height: 21px;
+        bottom: auto;
+        transform: translateY(-50%);
+        top: 50%;
+        left: 5%;
+    }
+    .hover-info::before{
+        content: none;
+    }
+    .hover-info.hidden{
+        display: none !important;
+    }
+    .close-hover {
+        position: absolute !important;
+        right: 5px;
+        top: 5px;
+        font-size: 30px;
+        width: 50px;
+        height: 50px;
+        line-height: 10px;
+        text-align: right;
+        display: block;
+    }
+    
+    .step-8-count {
+        position: absolute !important;
+        width: 246px;
+        height: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+    .step-8-title {
+        font-size: 30px;
+        line-height: 44px;
+        margin-bottom: 20px;
+    }
+    
+    #step-8 .game-3-ball {
+        margin-left: -22px !important;
+    }
+    
+    .step-9-title {
+        font-size: 30px;
+        line-height: 44px;
+        margin-bottom: -10px;
+        margin-top: -50px;
+        padding-left: 15px;
+    }
+    
+    .step-9-text {
+        padding-left: 15px;
+    }
+    
+    #step-9 .main {
+        padding-top: 90px;
+        margin-top: -35px;
+    }
+    
+    .game-3-text {
+        width: 421px;
+        height: 230px;
+        background-image: url(../images/game-3-text.png);
+        background-size: 100% 100%;
+        padding-bottom: 15px;
+        left: 50%;
+        margin-left: -275px;
+        padding-right: 41px;
+        top: 55%;
+        margin-top: -85px;
+    }
+    
+    .game-3-man {
+        width: 160px;
+        position: absolute;
+        top: 55%;
+        left: calc(50% + 100px);
+        z-index: 1;
+        margin-top: -80px;
+    }
+    
+    .game-3-text-inner {
+        font-size: 16px;
+        line-height: 18px;
+        padding: 15px 15px 10px 15px;
+    }
+    .animation-container{
+        display: none;
+    }
+    #step-10 .man-abs {
+        top: -30px;
+        left: -20px;
+    }
+    .game-last .pos {
+        width: 45px;
+        height: 20px;
+
+    }
+
+    #step-10 .game-last-ball {
+        width: 26px;
+        margin-left: 9px !important;
+    }
+    
+    #step-11,
+    #step-12,
+    #step-13 {
+        margin-top: -35px;
+    }
+    
+    #step-12 .chaos {
+        right: 5%;
+    }
+    #step-12 .cap-vs-chaos {
+        background-image: url(../images/capvschaos3.png);
+        width: 257px;
+        height: 157px;
+        background-size: 100% 100%;
+        font-size: 19px;
+        line-height: 25px;
+        padding: 40px 60px 0 40px;
+        right: calc(5% + 63px);
+        transform: translateY(-50%);
+    }
+    #step-13 .cap-vs-chaos {
+        width: 252px;
+        height: 128px;
+        background-size: 100% 100%;
+        font-size: 20px;
+        line-height: 26px;
+        padding: 32px 31px 0 110px;
+        left: calc(14% + 78px);
+    }
+    .game-last-man-1 {
+        width: 20%;
+        left: 18%;
+        top: -10%;
+        z-index: 1;
+    }
+    .game-last-man-2 {
+        width: 48px;
+        position: absolute;
+        top: -10%;
+        left: 80%;
+        height: 140px;
+    }
+    
+    #step-14 .game-last-ball1 {
+        width: 35px;
+        left: 50%;
+        top: 56%;
+    }
+    
+    #step-14 .main {
+        margin-top: -35px;
+    }
+    .watch-video {
+        width: 400px;
+        height: 240px;
+        background-size: 100% 100%;
+        left: 50%;
+        top: 50%;
+        margin-left: -135px;
+        margin-top: -100px;
+        padding: 25px 20px 35px 120px;
+    }
+    .watch-video-text {
+        color: #000000;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        margin-bottom: 15px;
+    }
+    #step-15,
+    #step-16 {
+        margin-top: -35px;
+    } 
+    .pop-video-content {
+        width: 90%;
+        height: 90%;
+        top: 50%;
+        left: 50%;
+    }
+    .pop-video-content iframe{
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .close-btn {
+        opacity: 1;
+        z-index: 1;
+    }
+    .big-logo {
+        max-width: 60%;
+        padding-top: 20px;
+    }
+    .final-ball {
+        width: 77px;
+        bottom: 10px;
+    }
+    .final-ball.goal {
+        width: 50px;
+        bottom: 100px;
+    }
+    
+    #step-17 {
+        margin-top: -35px;
+    }
+    .step-17-line-1 {
+        bottom: 0;
+        height: 7%;
+    }
+    .step-17-line-2 {
+        bottom: 7%;
+        height: 20%;
+    }
+    .machine {
+        width: 132px;
+    }
+    .lastest-man {
+        width: 122px;
+        left: 5%;
+        bottom: 30%;
+    }
+    .goal-text {
+        font-size: 40px;
+    }    
+    .goal-text.goal-text-2 {
+        left: calc(33% + 120px);
+    }
+    .goal-text.goal-text-3 {
+        left: calc(33% + 145px);
+    }
+    .trial-text {
+        font-size: 22px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+    .trial-btn{
+        width: 100%;
+    }
+    .trial {
+        width: 360px;
+        height: 210px;
+        top: 20%;
+        left: 50%;
+        margin-left: -230px;
+        background-size: 100% 100%;
+        padding: 40px 20px 25px 100px;
+    }
+}
+
+
+@media(max-width: 570px){
+    .personage-1 {
+        width: 70px;
+    }
+    .game-text {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-top: 0;
+        position: relative!important;
+        left: 100%;
+        bottom: 50px;
+        padding-left: 0;
+    }
+    .step-9-text {
+        position: relative;
+        left: 120px;
+        top: -25px;
+    }
+}
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1)  { 
+    .impression-text {
+        font-size: 44px;
+        line-height: 50px;
+    }
+    .personage-1, .personage-1 .personage-bg {
+        width: 130px;
+        height: 130px;
+    }
+    .personage-1-img, .personage-1 img {
+        width: 87px;
+    }
+    .personage-2, .personage-2 .personage-bg {
+        width: 146px;
+        height: 146px;
+    }
+    .personage-2-img, .personage-2 img {
+        width: 93px;
+    }
+    .personage-3, .personage-3 .personage-bg {
+        width: 146px;
+        height: 146px;
+    }
+    .personage-3-img, .personage-3 img {
+        width: 94px;
+    }
+    
+    .pos-3 {
+        top: 62% !important;
+    }
+    .pos-2 + img {
+        left: 53%;
+        top: 24%;
+        height: 38%;
+    }
+    .pos-3 + img {
+        left: 57%;
+        top: 42%;
+        width: 10%;
+    }
+    .watch-video {
+        margin-left: -225px;
+
+    }
+}
